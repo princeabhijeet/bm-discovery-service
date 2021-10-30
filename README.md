@@ -1,4 +1,3 @@
 # bm-discovery-service
 
-@EnableEurekaServer
-Netflix Eureka Server
+@EnableEurekaServer | Netflix Eureka Server
