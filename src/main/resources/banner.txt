@@ -1,5 +1,5 @@
 
 
-	Microservice	:	bm-discovery-service
+	Microservice	:	bm-discovery-service (Eureka Server)
 	Spring Boot		:	${spring-boot.formatted-version}	
 
