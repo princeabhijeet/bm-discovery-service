@@ -1,5 +1,11 @@
 
 
-	Microservice	:	bm-discovery-service (Eureka Server)
-	Spring Boot		:	${spring-boot.formatted-version}	
+	Microservice	:	bm-discovery-service
+	Spring Boot     :	${spring-boot.formatted-version}	
+	
+	Description     :	Netflix Eureka Server
+                                   1) Service Registry     - stores [Name, Host, Port, Health] of registered services
+                                                           - other services registry happens only if discovery service is annotated with @EnableEurekaServer
+                                   2) Service Discovery    - details of registered services are available to other registered services
+						
 
