@@ -1,0 +1,26 @@
+server:
+  port: ${serverPort}
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: ${defaultZone}
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 5000
+  instance:
+    hostname: ${eurekaInstance}
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#  endpoint:
+#    health:
+#      show-details: ALWAYS
+
+# VM Arguments
+# -DserverPort=8762 -DdefaultZone=http://localhost:8762/eureka -DeurekaInstance=localhost
