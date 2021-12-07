@@ -2,4 +2,4 @@
 
 Netflix Eureka Server
 
-@EnableEurekaServer
+@EnableEurekaServer - to enable the service registry
