@@ -1,4 +1,4 @@
-package com.prince.ms.registry;
+package com.prince.ms.discoveryservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
